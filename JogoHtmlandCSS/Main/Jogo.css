@@ -1,7 +1,8 @@
   /* style.css */
   h1 
   {
-    font-family: fantasy;
+    font-family: dejaVu sans;
+  font-style: italic;
     font-size: 90px;
     border: 10px ridge silver;
     text-align: center;
@@ -14,7 +15,8 @@
   p
   {
     font-size: 25px;
-    font-family: fantasy;
+    font-family: dejaVu sans;
+    font-style: italic;
     border: 10px ridge silver;
     background: url(images/Stand\ Proud.png) no-repeat center center fixed; 
     -webkit-background-size: cover;
@@ -40,23 +42,27 @@ html{
   background-size: cover;
 }
 
+button{
+  border: 5px rigde orangered;
+}
 
 a
 {
   color: black;
-  font-family: fantasy;
+  font-family: dejaVu sans;
+  font-style: italic;
 }
 
-  .center
-      {
-          display: block;
-          margin-left: auto;
-          margin-right: auto;
-          width: 50%;
-      }
+.center
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
   
-  img 
-  {
-      border: 55px ridge silver;
-  }
+#King
+{
+  border: 55px ridge silver;
+}
   
